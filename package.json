@@ -1,0 +1,33 @@
+{
+  "name": "nft-game",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:node": "hardhat node",
+    "accounts": "hardhat accounts",
+    "compile": "hardhat compile",
+    "format": "prettier . --write",
+    "script": "hardhat run scripts/run.ts",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network rinkeby"
+  },
+  "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@typechain/ethers-v5": "^7.1.2",
+    "@typechain/hardhat": "^2.3.0",
+    "@types/node": "^16.11.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "*",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
